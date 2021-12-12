@@ -5,3 +5,15 @@
     line-height: 14px;
     letter-spacing: 1.5px;
 }
+
+@media screen and (max-width: 830px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}

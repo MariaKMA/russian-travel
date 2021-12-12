@@ -1,5 +1,16 @@
 .content {
     display: grid;
-    grid-row-gap: 92px;
-    /* grid-column: 100vw; */
+    gap: 92px;
+}
+
+@media screen and (max-width: 830px) {
+    .content {
+        gap: 88px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        gap: 64px;
+    }
 }
