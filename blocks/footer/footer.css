@@ -1,0 +1,14 @@
+.footer {
+    margin: 0 48px 24px;
+    display: grid;
+    grid-template-columns: repeat(5, fit-content(174px)) minmax(174px, 1fr);
+    gap: 18px;
+}
+
+@media screen and (max-width: 830px) {
+    .footer {
+        grid-template-columns: repeat(auto-fit, 174px);
+        gap: 32px;
+        margin-left: 16px;
+    }
+}
