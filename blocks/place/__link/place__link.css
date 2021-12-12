@@ -4,8 +4,9 @@
     font-weight: 400;
     color: white;
     margin-top: 12px;
+    transition: opacity .3s ease-in-out;
 }
 
 .place__link:hover {
-    color: #fff;
+    opacity: .8;
 }
