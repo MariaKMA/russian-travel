@@ -12,7 +12,7 @@
         max-width: 928px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        gap: 14px; 
+        gap: 14px;
     }
 }
 
@@ -21,11 +21,11 @@
         max-width: 720px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        row-gap: 16px; 
-    }   
+        row-gap: 16px;
+    }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 480px) {
     .photo-grid {
         max-width: 288px;
         grid-template-columns: 1fr;
@@ -35,9 +35,3 @@
         margin-left: 16px;
     }
 }
-
-/* @media screen and (max-width: 480px) {
-    .photo-grid {
-        margin: 48px auto 0;
-    }
-} */
