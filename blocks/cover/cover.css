@@ -1,2 +1,6 @@
 .cover {
+    width: calc(100% - 96px);
+    margin: 0 auto;
+    min-height: 740px;
+    box-sizing: border-box;
 }

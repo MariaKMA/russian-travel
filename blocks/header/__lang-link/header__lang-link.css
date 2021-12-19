@@ -6,10 +6,11 @@
     font-weight: 400;
     font-style: normal;
     transition: opacity .3s ease-in-out;
+    padding-right: 18px;
 }
 
-.header__lang-link:first-child {
-    padding-right: 18px;
+.header__lang-link:last-child {
+    padding-right: 0;
 }
 
 .header__lang-link_active {
