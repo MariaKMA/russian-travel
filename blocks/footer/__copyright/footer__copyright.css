@@ -3,12 +3,18 @@
     padding: 0;
     font-size: 14px;
     line-height: 16px;
-    justify-self: end;
+    text-align: end;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 730px) {
     .footer__copyright {
-        justify-self: start;
+        text-align: start;
         margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__copyright {
+        line-height: 14px;
     }
 }
